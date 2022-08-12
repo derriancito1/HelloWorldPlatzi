@@ -1,0 +1,14 @@
+C:\GIT\HelloWorldPlatzi\HelloWorldPlatzi\bin\Debug\netcoreapp3.1\HelloWorldPlatzi.exe
+C:\GIT\HelloWorldPlatzi\HelloWorldPlatzi\bin\Debug\netcoreapp3.1\HelloWorldPlatzi.deps.json
+C:\GIT\HelloWorldPlatzi\HelloWorldPlatzi\bin\Debug\netcoreapp3.1\HelloWorldPlatzi.runtimeconfig.json
+C:\GIT\HelloWorldPlatzi\HelloWorldPlatzi\bin\Debug\netcoreapp3.1\HelloWorldPlatzi.runtimeconfig.dev.json
+C:\GIT\HelloWorldPlatzi\HelloWorldPlatzi\bin\Debug\netcoreapp3.1\HelloWorldPlatzi.dll
+C:\GIT\HelloWorldPlatzi\HelloWorldPlatzi\bin\Debug\netcoreapp3.1\HelloWorldPlatzi.pdb
+C:\GIT\HelloWorldPlatzi\HelloWorldPlatzi\obj\Debug\netcoreapp3.1\HelloWorldPlatzi.csproj.AssemblyReference.cache
+C:\GIT\HelloWorldPlatzi\HelloWorldPlatzi\obj\Debug\netcoreapp3.1\HelloWorldPlatzi.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\HelloWorldPlatzi\HelloWorldPlatzi\obj\Debug\netcoreapp3.1\HelloWorldPlatzi.AssemblyInfoInputs.cache
+C:\GIT\HelloWorldPlatzi\HelloWorldPlatzi\obj\Debug\netcoreapp3.1\HelloWorldPlatzi.AssemblyInfo.cs
+C:\GIT\HelloWorldPlatzi\HelloWorldPlatzi\obj\Debug\netcoreapp3.1\HelloWorldPlatzi.csproj.CoreCompileInputs.cache
+C:\GIT\HelloWorldPlatzi\HelloWorldPlatzi\obj\Debug\netcoreapp3.1\HelloWorldPlatzi.dll
+C:\GIT\HelloWorldPlatzi\HelloWorldPlatzi\obj\Debug\netcoreapp3.1\HelloWorldPlatzi.pdb
+C:\GIT\HelloWorldPlatzi\HelloWorldPlatzi\obj\Debug\netcoreapp3.1\HelloWorldPlatzi.genruntimeconfig.cache
