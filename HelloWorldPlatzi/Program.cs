@@ -6,7 +6,10 @@ namespace HelloWorldPlatzi
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Platzi!");
+            Console.WriteLine("What's you name? Please write your full name");
+            string fullUserName = Console.ReadLine();
+            Console.WriteLine("Hello!! " + fullUserName + ", Welcome to platzi");
+
         }
     }
 }
