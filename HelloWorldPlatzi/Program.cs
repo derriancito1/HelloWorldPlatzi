@@ -9,10 +9,11 @@ namespace HelloWorldPlatzi
             //int number1;
             //int number2;
             //int result;
-            double height = 1.7;
-            int age = 20;
-            string name = "Jonathan Rodriguez";
-            string information = "The Information you requested is: \nUser Name: " + name + "\nUser Age: " + age + "\nUser Height: " + height;
+            //double height = 1.7;
+            //int age = 20;
+            //string name = "Jonathan Rodriguez";
+            //string information = "The Information you requested is: \nUser Name: " + name + "\nUser Age: " + age + "\nUser Height: " + height;
+
 
 
 
@@ -28,7 +29,16 @@ namespace HelloWorldPlatzi
             //result = number1 + number2;
             //Console.WriteLine("Hello!! " + name + ", Welcome to platzi, the result is: " + result);
 
-            Console.WriteLine(information);
+            //Console.WriteLine(information);
+
+
+            //rectangle area canculation.
+            float sideA = 10;
+            float sideB = 20;
+
+            float area = sideA * sideB;
+
+            Console.WriteLine("The reactangle area is: " + area);
 
         }
     }
