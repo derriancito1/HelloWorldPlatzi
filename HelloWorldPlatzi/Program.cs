@@ -7,26 +7,17 @@ namespace HelloWorldPlatzi
     {
         static void Main(string[] args)
         {
-            List<string> tacoShippingList = new List<string>();
+            float[] pricesArray;
 
-            tacoShippingList.Add("Cinco tacos de suadero");
-            tacoShippingList.Add("Cuatro tacos de tripa");
-            tacoShippingList.Add("Cinco tacos de pastor");
-            tacoShippingList.Add("Cuatro Coca Colas");
+            pricesArray = new float[10];
+            pricesArray[0] = 1.5f;
+            pricesArray[1] = 2.5f;
+            pricesArray[2] = 3f;
+            pricesArray[3] = 5f;
 
-            for (int i = 0; i < tacoShippingList.Count; i++)
-            {
-                Console.WriteLine(tacoShippingList[i]);
-            }
-
-            tacoShippingList.Remove("Cinco tacos de suadero");
-            //tacoShippingList.RemoveAt(0);
-            Console.WriteLine("Segunda lista \n");
-
-            for (int i = 0; i < tacoShippingList.Count; i++)
-            {
-                Console.WriteLine(tacoShippingList[i]);
-            }
+            Random random = new Random();
+            Console.WriteLine("Hello world, of random numbers!");
+            Console.WriteLine($"{random.Next(1,10)}");
 
         }
     }
