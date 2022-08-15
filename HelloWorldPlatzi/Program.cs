@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace HelloWorldPlatzi
 {
@@ -6,17 +7,25 @@ namespace HelloWorldPlatzi
     {
         static void Main(string[] args)
         {
-            string[] coffeTypes;
-            float[] coffePrices;
+            List<string> tacoShippingList = new List<string>();
 
-            coffeTypes = new string[] {"Express", "Largo", "Filtrado", "Latte"};
-            coffePrices = new float[] { 1.2f, 1.5f, 5.0f, 5.5f};
+            tacoShippingList.Add("Cinco tacos de suadero");
+            tacoShippingList.Add("Cuatro tacos de tripa");
+            tacoShippingList.Add("Cinco tacos de pastor");
+            tacoShippingList.Add("Cuatro Coca Colas");
 
-            coffeTypes[1] = "Lungo";
-
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < tacoShippingList.Count; i++)
             {
-                Console.WriteLine(coffeTypes[i] + " Coffe $" + coffePrices[i]);
+                Console.WriteLine(tacoShippingList[i]);
+            }
+
+            tacoShippingList.Remove("Cinco tacos de suadero");
+            //tacoShippingList.RemoveAt(0);
+            Console.WriteLine("Segunda lista \n");
+
+            for (int i = 0; i < tacoShippingList.Count; i++)
+            {
+                Console.WriteLine(tacoShippingList[i]);
             }
 
         }
