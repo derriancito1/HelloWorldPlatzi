@@ -6,14 +6,18 @@ namespace HelloWorldPlatzi
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter the side a of A the rectangle, yo can use decimals");
-            float sideA = float.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter the side a of B the rectangle, yo can use decimals");
-            float sideB = float.Parse(Console.ReadLine());
+            string[] coffeTypes;
+            float[] coffePrices;
 
-            float area = sideA * sideB;
+            coffeTypes = new string[] {"Express", "Largo", "Filtrado", "Latte"};
+            coffePrices = new float[] { 1.2f, 1.5f, 5.0f, 5.5f};
 
-            Console.WriteLine("The rectangule area is: " + area);
+            coffeTypes[1] = "Lungo";
+
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine(coffeTypes[i] + " Coffe $" + coffePrices[i]);
+            }
 
         }
     }
