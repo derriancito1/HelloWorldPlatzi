@@ -6,33 +6,14 @@ namespace HelloWorldPlatzi
     {
         static void Main(string[] args)
         {
-            int value1 = 3;
-            int value2 = 18;
-            int value3 = -18;
+            Console.WriteLine("Please enter the side a of A the rectangle, yo can use decimals");
+            float sideA = float.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter the side a of B the rectangle, yo can use decimals");
+            float sideB = float.Parse(Console.ReadLine());
 
-            bool result0 = value1 == value2;
-            bool result1 = value1 != value2;
-            bool result2 = value1 > value2;
-            bool result3 = value1 < value2;
-            bool result4 = value1 >= value2;
-            bool result5 = value1 <= value2;
+            float area = sideA * sideB;
 
-            Console.WriteLine("The result of " + value1 + " == " + value2 + " is: " + result0);
-            Console.WriteLine("The result of " + value1 + " != " + value2 + " is: " + result1);
-            Console.WriteLine("The result of " + value1 + " > " + value2 + " is: " + result2);
-            Console.WriteLine("The result of " + value1 + " < " + value2 + " is: " + result3);
-            Console.WriteLine("The result of " + value1 + " >= " + value2 + " is: " + result4);
-            Console.WriteLine("The result of " + value1 + " <= " + value2 + " is: " + result5);
-
-            /*
-             *  == igual a
-             *  != no ingual a 
-             *  > mayor que 
-             *  < menor que 
-             *  >= mayor o igual que 
-             *  <= menor o igual que 
-             */
-
+            Console.WriteLine("The rectangule area is: " + area);
 
         }
     }
