@@ -7,19 +7,27 @@ namespace HelloWorldPlatzi
     {
         static void Main(string[] args)
         {
-            int anyValue = 14;
-            string message = "";
-            if (anyValue == 7)
+            Console.WriteLine("Enter the selected soda: ");
+            string caseSwitch = Console.ReadLine();
+
+            switch (caseSwitch)
             {
-                message = "OMG it's a miracle the value is 7";
-            }else if (anyValue==14){
-                message = "OMG, it's a double miracle the value is 14";
+                case "cola":
+                    Console.WriteLine("Cola soda - $2 USD");
+                    break;
+                case "lime":
+                    Console.WriteLine("Lime soda - $1 USD");
+                    break;
+                case "orange":
+                    Console.WriteLine("Orange soda - $1.5 USD");
+                    break;
+                case "apple":
+                    Console.WriteLine("Apple soda - $1 USD");
+                    break;
+                default:
+                    Console.WriteLine("ERROR: You did not select a soda or you entered an incorrect value.");
+                    break;
             }
-            else
-            {
-                message = "Puff, the value wasn't 7";
-            }
-            Console.WriteLine($"The answer is> {message}");
 
         }
     }
